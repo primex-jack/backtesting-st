@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +173,48 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+=======
+# Log files and directories
+logs/
+*.log
+backtest_results_*.txt
+backtest_results/
+backtest_results_new/
+backup_scripts/
+test_review/
+*.meta
+single_reports/
+account_value_reports/
+*.png
+*.html
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and dependency files
+.env
+venv/
+*.venv/
+
+# Sensitive data
+*.key
+*.pem
+config.ini
+secrets/
+
+# System and editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+*.code-workspace
+
+# Large data files (if applicable)
+data/
+*.csv
+*.parquet
+*.h5
+>>>>>>> 601ce29 (Initial commit: Add backtesting project files)
